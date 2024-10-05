@@ -1,8 +1,5 @@
-:root{
-    
-} 
 nav {
-    background-color: steelblue;
+    background-color: #336447;
     padding: 10px;
 }
 nav a {
@@ -11,10 +8,10 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: #336447;
 }
 img {    
-    border: 1px solid steelblue;
+    border: 1px solid #336447;
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
@@ -31,10 +28,10 @@ main {
 aside {
     max-width: 200px;
     margin: 1em;
-    border: 1px solid #424343;
+    border: 1px solid #336447;
     padding: 2em;
     background-color: #e3e3e3;
-    color: #024802;
+    color: #336447;
 }
 
 aside img {
@@ -46,6 +43,6 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
     color: #f3f3f3;
-    background-color: #333;
+    background-color: #336447;
     padding: 1em;
 }
