@@ -8,8 +8,9 @@
     --body-font: "Moderustic", system-ui;
     --header-font: "Edu AU VIC WA NT Hand", system-ui;
 }
-.brownrafting img {
- max-width: 120px;
+header, main, footer {
+    max-width: 1200;
+    margin: 0 auto;
 }
 nav header {
     display: flex;
@@ -17,43 +18,48 @@ nav header {
 }
 header{
     background-color: var(--secondary-color);
-    font-family: var(--header-font);
-    font-size: 25px;
-    text-align: center;
-    max-width: 1400px;
-    padding: 50px;
-    margin: 1rem auto;
 	display: grid;
 }
+body {
+    font-family: var(--body-font);
+}
+.hero {
+    position: relative;
+}
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
-    position: relative;
-    object-fit: cover;
+}
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    background-color: #05668dad;
+    color: #fff;
 }
 p {
     padding: 0;
     font-family: var(--body-font);
 }
-nav a {
-    color: var(--primary-color)
-}
 h1 {
     font-family: var(--header-font);
-    color: #342b1e;
-    background-color: #05668dad;
 }
-article img {
+.hero article img {
     max-width: 200px;
-    position: absolute;
     float: right;
     background-color: #05668dad;
 }
 article{
     position: absolute;
-    text-align: center;
     background-color: #05668dad;
+    color: #fff;
+    top: 150px;
+    left: 10%;
+    right: 10%;
+    padding: 1em;
 }
 h2 {
     font-family: var(--header-font);
@@ -67,4 +73,7 @@ footer{
     padding: 1em;
     color: #cfcb89;
     text-align: center;
+}
+a {
+    text-decoration: none;
 }
