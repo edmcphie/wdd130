@@ -38,7 +38,7 @@ header nav {
 .navigation a {
     display: block;
     color: #342b1e;
-    padding: 20 px;
+    padding: 20px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -51,7 +51,7 @@ body {
 }
 .contact-info {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .contact-us {
     background-color: #cfcb89;
