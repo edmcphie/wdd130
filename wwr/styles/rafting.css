@@ -49,6 +49,104 @@ header nav {
 body {
     font-family: var(--body-font);
 }
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+.contact-us {
+    background-color: #cfcb89;
+    color: #342b1e;
+    margin: 1em;
+    padding: 1em;
+    border: #342b1e solid 2px;
+}
+.email {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #cfcb89;
+    color: #342b1e;
+    margin: 1em;
+    border: #342b1e solid 2px;
+}
+.email img {
+    float: left;
+    max-height: 100px;
+    margin: 1em;
+}
+.phone {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #cfcb89;
+    color: #342b1e;
+    margin: 1em;
+    border: #342b1e solid 2px;
+}
+.phone img {
+    float: left;
+    max-height: 100px;
+    margin: 1em;
+}
+form {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: #342b1e;
+    color: #cfcb89;
+    margin: 1em;
+    padding: 1em;
+    border: #cfcb89 solid 2px;
+}
+button {
+    color: #342b1e;
+    background-color: #cfcb89;
+}
+input{
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+select {
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+textarea {
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+.location{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: #342b1e solid 2px;
+    background-color: #43be7d;
+    color: #342b1e;
+    margin: 1em;
+}
+.location img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 1em;
+}
+.location p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.location iframe{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    max-height: 200px;
+    max-width: 500px;
+    padding: 1em;
+}
+.location h2 {
+    grid-column: 1/4;
+}
+.leaders {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #cfcb89;
+    font-weight: 500;
+    color: #342b1e;
+    border: #342b1e solid 2px;
+    margin: 0 0 1em 0;
+}
 .hero {
     position: relative;
 }
