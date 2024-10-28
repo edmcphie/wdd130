@@ -86,7 +86,7 @@ body {
     max-height: 100px;
     margin: 1em;
 }
-form {
+.contact-company {
     grid-column: 2/3;
     grid-row: 1/4;
     background-color: #342b1e;
@@ -95,19 +95,19 @@ form {
     padding: 1em;
     border: #cfcb89 solid 2px;
 }
-button {
+.contact-company button {
     color: #342b1e;
     background-color: #cfcb89;
 }
-input{
+.contact-company input{
     background-color: #cfcb89;
     color: #342b1e;
 }
-select {
+.contact-company select {
     background-color: #cfcb89;
     color: #342b1e;
 }
-textarea {
+.contact-company textarea {
     background-color: #cfcb89;
     color: #342b1e;
 }
@@ -195,7 +195,7 @@ h2 {
 p {
     margin: 1rem;
 }
-main section {
+.history {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -237,4 +237,60 @@ footer{
 }
 footer nav a {
     text-decoration: none;
+}
+.newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #342b1e;
+}
+.newsletter h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #cfcb89;
+    margin: 2em;
+}
+.newsletter form {
+    margin: 2em;
+    padding: 1em;
+    color: #cfcb89;
+}
+.newsletter input {
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+.newsletter button {
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+.call-to-action {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+}
+.teal-double-drop img{
+    max-width: 200px;
+    margin: 2em;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.big-mallard img {
+    max-width: 200px;
+    margin: 2em;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.adventure-awaits {
+    background-color: #cfcb89;
+    margin: 1em;
+    padding: 1em;
+    border: #342b1e solid 2px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.adventure-awaits a {
+    text-decoration: none;
+    font-weight: 700;
+    float: right;
+}
+.adventure-awaits a:hover {
+    color: #05668d;
 }
