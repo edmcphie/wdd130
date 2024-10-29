@@ -294,3 +294,77 @@ footer nav a {
 .adventure-awaits a:hover {
     color: #05668d;
 }
+table {
+    border-collapse: collapse;
+    border: #342b1e solid 2px;
+    letter-spacing: 1px;
+    padding: 1em;
+    margin: 1em;
+}
+caption {
+    padding: 10px;
+    font-weight: bold;
+    color: #342b1e;
+}
+th, td {
+    border: #342b1e solid 2px;
+    padding: 8px 10px;
+}
+td {
+    text-align: center;
+}
+thead {
+    background-color: #342b1e;
+    color: #cfcb89;
+}
+tbody {
+    background-color: #cfcb89;
+    color: #342b1e;
+}
+.cta-trips {
+    background-color: #05668d;
+    color: #fff;
+    padding: 0 2em 2em 2em;
+    margin: 1em;
+    border: #342b1e solid 2px;
+}
+.cta-trips a{
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cta-trips a:hover {
+    color: #43be7d;
+}
+.descriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.descriptions img {
+    max-width: 180px;
+    margin: 2em;
+}
+.half-days-adventure {
+    border: #cfcb89 solid 2px;
+    margin: 1em;
+    background-color: #342b1e;
+    color: #cfcb89;
+}
+.half-days-adventure h2 {
+    color: #cfcb89;
+}
+.backbone-creek {
+    border: #342b1e solid 2px;
+    margin: 1em;
+    background-color: #05668d;
+    color: #fff;
+}
+.backbone-creek h2 {
+    color: #fff;
+}
+.los-dientes-del-diablo {
+    border: #342b1e solid 2px;
+    margin: 1em;
+    background-color: #43be7d;
+}
